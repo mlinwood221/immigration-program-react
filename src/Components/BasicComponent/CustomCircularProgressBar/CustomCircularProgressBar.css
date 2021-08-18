@@ -1,0 +1,14 @@
+.custom-circular-progressbar {
+    position: relative;
+    width: 228px;
+    margin: 40px auto;
+}
+.custom-circular-progressbar .custom-circular-progressbar-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -2.34375px;
+}

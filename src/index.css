@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 0;
+  font-family: Roboto Condensed, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  background-color:#F4F7FE
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px !important;
+}
+span {
+    font-size: 14px;
+    line-height: 24px;
+}
+:root {
+    --primary: #E74D4F !important;
+    --secondary: #B32C00 !important;
+    --medium: #A0A0A0 !important;
+    --dark: #113044 !important;
+    --light: #EFF9FF !important;
+    --white: #FFFFFF !important;
+    --disabled: #FFE0E1 !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--medium);
+    border-radius: 3px;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--dark);
+    border-radius: 3px;
+}

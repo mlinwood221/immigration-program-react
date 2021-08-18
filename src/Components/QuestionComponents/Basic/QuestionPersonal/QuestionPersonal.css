@@ -1,0 +1,29 @@
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+    position: absolute;
+    margin-top: 0px;
+    width: 80px;
+    margin-left: -70px;
+  }
+  
+  .valid:before {
+    position: absolute;
+    left: 55px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+    position: absolute;
+    margin-top: 0px;
+    width: 80px;
+    margin-left: -70px;
+  }
+  
+  .invalid::after {
+    position: absolute;
+    content: "✖";
+    left: 50px;
+  }

@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600 !important;
+}
+.main-container.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.page-content .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.page-headline {
+    text-align: left;
+    margin-top: 70px;
+    padding: 100px 0px;
+}
+.page-headline h2 {
+    max-width: 500px;
+}
+
+.page-content {
+    text-align: left;
+    background-color: var(--white);
+    padding: 50px 0px;
+}
+.box-paragraph {
+    margin: 50px -50px 0px -50px !important;
+    margin-top: 50px;
+    padding: 50px;
+    background: var(--light);
+}
+.btn-wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn {    
+    color: var(--white) !important;
+    background: var(--primary) !important;
+    padding: 7px 60px !important;
+    border-radius: 4px !important;
+}
+.page-content ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.page-content ul li:first-child {
+    margin-left: 0px;
+}
+.page-content ul li {
+    margin-left: 30px;
+}
+.page-content ul li i {
+    color: var(--primary);
+}
+
+@media screen and (max-width:767px) {
+    .box-paragraph {
+        padding: 50px 20px !important;
+    }
+}

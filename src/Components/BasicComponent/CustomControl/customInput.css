@@ -1,0 +1,39 @@
+.custom-input-container {
+    position: relative;
+}
+.custom-input-body {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    border: 1px solid var(--medium);
+    box-shadow: 1px 3px 10px rgba(61,98,174,0.5);
+}
+
+.custom-input-suggestions {
+    max-height: 200px;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background: var(--white);
+    border: none;
+    box-sizing: border-box;
+    color: var(--dark);
+}
+.custom-input-suggestions li, .custom-input-no-suggestions {
+    list-style: none;
+    border-bottom: 1px solid var(--medium);
+    font-size: 14px;
+    line-height: 29px;
+    padding-left: 10px;
+}
+.custom-input-suggestions li:hover {
+    cursor: pointer;
+    background: var(--medium);
+}
+.custom-input-suggestions li.suggestion-active {
+    background: var(--primary);
+    color: var(--white);
+}
+.custom-input-no-suggestions {
+    background: var(--white);
+}

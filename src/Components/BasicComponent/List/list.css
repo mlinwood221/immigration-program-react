@@ -1,0 +1,51 @@
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  ol .list {
+    counter-increment: my-awesome-counter;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    border: solid 1px #aec3ed;
+    background: #ffffff;
+    color: #2c2c2c;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  ol .list::before {
+    content:  counter(my-awesome-counter)".";
+    font-weight: bold;
+    margin-right: 0.4rem;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1;
+  }
+.edit {
+    color: #2c2c2c;
+    font-family: Poppins;
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    text-decoration: underline;
+    letter-spacing: 0.4375px;
+    margin-right: 20px;
+  }
+  .monthYear {
+    color: #2c2c2c;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    /* letter-spacing: 0.4375px; */
+  }

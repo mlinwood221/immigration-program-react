@@ -1,0 +1,69 @@
+label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: var(--dark);
+    margin-bottom: 6px;
+}
+.label-dark {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: var(--dark);
+    margin-bottom: 6px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid var(--medium);
+    color: var(--dark);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+}
+input::placeholder {
+    color: var(--medium);
+}
+input:focus {
+    outline: none;
+}
+
+select {
+    border: none;
+    border-bottom: 1px solid var(--medium);
+    color: var(--dark);
+    width: 100%;
+
+    background-image: url('../../../Assests/Icons/icon-arrow-down-dark.svg');
+    background-position: calc(100%) calc(2px);
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    
+    -moz-appearance: none; 
+    -webkit-appearance: none; 
+}
+select:focus {
+    outline: none;
+}
+select:invalid {
+    color: var(--medium);
+}
+option {
+    color: var(--dark);
+}
+option[value=""] {
+    display: none;
+}
+
+input[type="month"]::before{
+    border: none;
+}
+  
+input[type="month"]:focus::before,
+input[type="month"]:active::before {
+    border: none;
+}

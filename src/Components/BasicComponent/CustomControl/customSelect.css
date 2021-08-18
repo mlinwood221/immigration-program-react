@@ -1,0 +1,76 @@
+.custom-select {
+    font-family: Poppins;
+    background: var(--white) !important;
+    height: 27px !important;
+    padding: 0px !important;
+    border: none !important;
+}
+.custom-select-container {
+    width: 100%;
+    position: relative;
+}
+.custom-select-right-arrow {
+    top: 3px;
+    right: 1px;
+    position: absolute;
+}
+.custom-select-right-arrow.up {
+    content: url('../../../Assests/Icons/icon-arrow-up-dark.svg');
+}
+.custom-select-right-arrow.down {
+    content: url('../../../Assests/Icons/icon-arrow-down-dark.svg');
+}
+.custom-select-header {
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--medium);
+    border-bottom: 1px solid var(--medium);
+    border-radius: 0px;
+}
+.custom-multi-select-header {
+    display: flex;
+    overflow-x: auto;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.custom-selected {
+    background: var(--medium);
+    padding: 0px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.custom-select-body {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    border: 1px solid var(--medium);
+    box-shadow: 1px 3px 10px rgba(61,98,174,0.5);
+}
+.custom-select-list {
+    max-height: 200px;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background: var(--white);
+    border: none;
+    box-sizing: border-box;
+    color: var(--dark);
+}
+.custom-select-list-item {
+    padding-left: 10px;
+    cursor: pointer;
+    list-style: none;
+    border-bottom: 1px solid var(--medium);
+    font-size: 14px;
+    line-height: 29px;
+}
+.custom-select-list-item:hover {
+    background: var(--medium);
+}
+.custom-select-list-item.active {
+    background: var(--primary);
+    color: var(--white);
+}

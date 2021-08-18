@@ -1,0 +1,40 @@
+.recommendation-header {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.recommendation-header2 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.recommendation-header2-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF9540;
+    margin-bottom: 10px !important;
+}
+
+.recommendation-header-description, .recommendation-header2-description {
+    width: 255px;
+    margin: 0 auto;
+}
+
+.recommendation-body {
+    text-align: left;
+    margin: 60px 15px 0px 15px;
+}
+
+.recommendation-body-title {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 15px !important;
+}
+
+.recommendation-see-more {
+    margin-top: 40px;
+}

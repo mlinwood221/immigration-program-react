@@ -1,0 +1,15 @@
+.recommendation-loading-header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark);
+    margin-bottom: 0px;
+}
+
+.videoTag {
+    max-width: 400px;
+    width: 80%;
+    margin: 35px 0px;
+}

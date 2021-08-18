@@ -1,0 +1,16 @@
+.custom-group {
+    position: relative;
+}
+
+.custom-group-delete-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.custom-group-delete-btn:focus {
+    outline: none;
+}

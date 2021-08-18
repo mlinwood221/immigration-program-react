@@ -1,0 +1,26 @@
+.amazon-advert-desktop {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.amazon-advert-mobile {
+    display: none;
+    width: 100%;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.amazon-advert-both {
+    width: 100%;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+@media screen and (max-width: 660px) {
+    .amazon-advert-desktop {
+        display: none;
+    }
+    .amazon-advert-mobile {
+        display: block;
+    }
+}

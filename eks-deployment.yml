@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: imm-react-ui
+  namespace: imm-frontend
+spec:
+  selector:
+    matchLabels:
+      app: imm-react-ui
+  replicas: 3  
+  strategy:
+      type: RollingUpdate
+      rollingUpdate:
+        maxSurge: 1
+        maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: imm-react-ui
+    spec:
+      containers:
+        - name: imm-react-ui
+          image: CONTAINER_IMAGE
+          imagePullPolicy: IfNotPresent
+          ports:
+          - containerPort: 80
